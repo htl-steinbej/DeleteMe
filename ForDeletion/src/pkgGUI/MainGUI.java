@@ -8,7 +8,8 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
 public class MainGUI extends JFrame {
-	private JButton btnOK = new JButton();/*MASTER*/
+	
+	private JLabel lblMessage = new JLable(); /*EDITED BY THE MASTER*/
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	public static void main(String[] args) {
