@@ -3,7 +3,6 @@ package pkgData;
 public class Car {
 	private String name;
 	private int id;
-	
 	public String getName() {
 		return name;
 	}
