@@ -2,13 +2,13 @@ package pkgGUI;
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
-
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
 public class MainGUI extends JFrame {
-	private JButton btnOK;/*MASTER*/
+	private JButton btnOK = new JButton();/*MASTER*/
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
 	public static void main(String[] args) {
