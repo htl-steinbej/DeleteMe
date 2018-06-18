@@ -15,18 +15,6 @@ public class MainGUI extends JFrame {
 	private JLabel lblMessage = new JLabel(); /*EDITED BY THE MASTER*/
 	private static final long serialVersionUID = 1L;
 	private JPanel contentPane;
-	public static void main(String[] args) {
-		EventQueue.invokeLater(new Runnable() {
-			public void run() {
-				try {
-					MainGUI frame = new MainGUI();
-					frame.setVisible(true);
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		});
-	}
 	public MainGUI() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
